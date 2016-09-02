@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Material>
+    <SolidGroupMap>
+        <Group number="1">
+            <begin>1</begin>
+            <end>1</end>
+            <name>Plasma</name>
+        </Group>
+        <Group number="2">
+            <begin>2</begin>
+            <end>22</end>
+            <name>Blanket 1 Layer</name>
+        </Group>
+        <Group number="3">
+            <begin>23</begin>
+            <end>43</end>
+            <name>Blanket 2 Layer</name>
+        </Group>
+        <Group number="4">
+            <begin>44</begin>
+            <end>50</end>
+            <name>Blanket Backboard</name>
+        </Group>
+        <Group number="5">
+            <begin>51</begin>
+            <end>52</end>
+            <name>Blanket Plugs</name>
+        </Group>
+        <Group number="6">
+            <begin>53</begin>
+            <end>79</end>
+            <name>Blanket Structure</name>
+        </Group>
+        <Group number="7">
+            <begin>80</begin>
+            <end>104</end>
+            <name>Divetor 1 Layer</name>
+        </Group>
+        <Group number="8">
+            <begin>105</begin>
+            <end>129</end>
+            <name>Divetor 2 Layer</name>
+        </Group>
+        <Group number="9">
+            <begin>130</begin>
+            <end>154</end>
+            <name>Divetor 3 Layer</name>
+        </Group>
+        <Group number="10">
+            <begin>155</begin>
+            <end>201</end>
+            <name>Divetor 4 Layer</name>
+        </Group>
+        <Group number="11">
+            <begin>202</begin>
+            <end>205</end>
+            <name>Divetor inter Layer</name>
+        </Group>
+        <Group number="12">
+            <begin>206</begin>
+            <end>206</end>
+            <name>Vessel Plug</name>
+        </Group>
+        <Group number="13">
+            <begin>207</begin>
+            <end>238</end>
+            <name>Vessel Structure</name>
+        </Group>
+        <Group number="14">
+            <begin>239</begin>
+            <end>264</end>
+            <name>Vesse Ports</name>
+        </Group>
+        <Group number="15">
+            <begin>265</begin>
+            <end>266</end>
+            <name>CS coils</name>
+        </Group>
+        <Group number="16">
+            <begin>267</begin>
+            <end>274</end>
+            <name>TF coils</name>
+        </Group>
+        <Group number="17">
+            <begin>275</begin>
+            <end>322</end>
+            <name>TF coils case</name>
+        </Group>
+    </SolidGroupMap>
+    <MaterialGroupMap>
+        <MatGroup Name="Blanket 1 Layer">2</MatGroup>
+        <MatGroup Name="Blanket 2 Layer">3</MatGroup>
+        <MatGroup Name="Blanket Backboard">5</MatGroup>
+        <MatGroup Name="Blanket Plugs">6</MatGroup>
+        <MatGroup Name="Blanket Structure">4</MatGroup>
+        <MatGroup Name="CS coils">15</MatGroup>
+        <MatGroup Name="Divetor 1 Layer">7</MatGroup>
+        <MatGroup Name="Divetor 2 Layer">8</MatGroup>
+        <MatGroup Name="Divetor 3 Layer">9</MatGroup>
+        <MatGroup Name="Divetor 4 Layer">10</MatGroup>
+        <MatGroup Name="Divetor inter Layer">11</MatGroup>
+        <MatGroup Name="Plasma">1</MatGroup>
+        <MatGroup Name="TF coils">16</MatGroup>
+        <MatGroup Name="TF coils case">17</MatGroup>
+        <MatGroup Name="Vesse Ports">14</MatGroup>
+        <MatGroup Name="Vessel Plug">13</MatGroup>
+        <MatGroup Name="Vessel Structure">12</MatGroup>
+    </MaterialGroupMap>
+    <MaterialMap>
+        <MaterialID number="1">
+            <id>1</id>
+            <name>Mat_Plasma</name>
+            <density>0.01</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="2">
+            <id>2</id>
+            <name>Mat_Blanket_1_Layer</name>
+            <density>0.02</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="3">
+            <id>3</id>
+            <name>Mat_Blanket_2_Layer</name>
+            <density>0.03</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="4">
+            <id>4</id>
+            <name>Mat_Blanket_Structure</name>
+            <density>0.04</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="5">
+            <id>5</id>
+            <name>Mat_Blanket_BackBoard</name>
+            <density>0.05</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="6">
+            <id>6</id>
+            <name>Mat_Blanket_Plugs</name>
+            <density>0.06</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="7">
+            <id>7</id>
+            <name>Mat_Divetor_1_Layer</name>
+            <density>0.07</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="8">
+            <id>8</id>
+            <name>Mat_Divetor_2_Layer</name>
+            <density>0.08</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="9">
+            <id>9</id>
+            <name>Mat_Divetor_3_Layer</name>
+            <density>0.09</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="10">
+            <id>10</id>
+            <name>Mat_Divetor_4_Layer</name>
+            <density>0.1</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="11">
+            <id>11</id>
+            <name>Mat_Divetor_inter_Layer</name>
+            <density>0.11</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="12">
+            <id>12</id>
+            <name>Mat_Vessel_Structure</name>
+            <density>0.12</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="13">
+            <id>13</id>
+            <name>Mat_Vessel_Plug</name>
+            <density>0.13</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="14">
+            <id>14</id>
+            <name>Mat_Vessel_Ports</name>
+            <density>0.14</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="15">
+            <id>15</id>
+            <name>Mat_CSCoils</name>
+            <density>0.15</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="16">
+            <id>16</id>
+            <name>Mat_TFCoils</name>
+            <density>0.16</density>
+            <card></card>
+        </MaterialID>
+        <MaterialID number="17">
+            <id>17</id>
+            <name>Mat_TFCoils_Case</name>
+            <density>0.17</density>
+            <card></card>
+        </MaterialID>
+    </MaterialMap>
+</Material>
