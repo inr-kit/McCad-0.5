@@ -7,6 +7,8 @@ Type "McCad -d (stepfilename).stp -n" to decompose the input CAD model.
 the last parameter is to control combine the solids after decomposition or not.
 
  -0 means the decomposed solids will be saved as independent solids.
+ 
  -1 means the the decomposed solids which belong to one original solid will be combined.
+ 
  -2 means all the decomposed solids will be combined as one solid.
 
